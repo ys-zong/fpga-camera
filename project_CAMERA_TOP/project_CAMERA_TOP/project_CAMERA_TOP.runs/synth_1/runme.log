@@ -1,0 +1,611 @@
+
+*** Running vivado
+    with args -log CAMERE_TOP.vds -m64 -mode batch -messageDb vivado.pb -notrace -source CAMERE_TOP.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source CAMERE_TOP.tcl -notrace
+Command: synth_design -top CAMERE_TOP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 29384 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 305.789 ; gain = 98.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CAMERE_TOP' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v:22]
+INFO: [Synth 8-638] synthesizing module 'CLK_DIV' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/realtime/CLK_DIV_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'CLK_DIV' (1#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/realtime/CLK_DIV_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'OV2640_Driver' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/OV2640_Driver.v:22]
+	Parameter p_rIDaddr bound to: 8'b01100000 
+INFO: [Synth 8-638] synthesizing module 'SCCB_Timing_Control' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v:22]
+	Parameter p_delay_num bound to: 100000 - type: integer 
+	Parameter p_sccb_clk bound to: 1000 - type: integer 
+	Parameter p_SCCB_IDLE bound to: 5'b00000 
+	Parameter p_SCCB_W_START bound to: 5'b00001 
+	Parameter p_SCCB_W_IDADDR bound to: 5'b00010 
+	Parameter p_SCCB_W_ACK1 bound to: 5'b00011 
+	Parameter p_SCCB_W_REGADDR bound to: 5'b00100 
+	Parameter p_SCCB_W_ACK2 bound to: 5'b00101 
+	Parameter p_SCCB_W_REGDATA bound to: 5'b00110 
+	Parameter p_SCCB_W_ACK3 bound to: 5'b00111 
+	Parameter p_SCCB_W_STOP bound to: 5'b01000 
+	Parameter p_SCCB_R_START1 bound to: 5'b01001 
+	Parameter p_SCCB_R_IDADDR1 bound to: 5'b01010 
+	Parameter p_SCCB_R_ACK1 bound to: 5'b01011 
+	Parameter p_SCCB_R_REGADDR bound to: 5'b01100 
+	Parameter p_SCCB_R_ACK2 bound to: 5'b01101 
+	Parameter p_SCCB_R_STOP1 bound to: 5'b01110 
+	Parameter p_SCCB_R_IDLE bound to: 5'b01111 
+	Parameter p_SCCB_R_START2 bound to: 5'b10000 
+	Parameter p_SCCB_R_IDADDR2 bound to: 5'b10001 
+	Parameter p_SCCB_R_ACK3 bound to: 5'b10010 
+	Parameter p_SCCB_R_REGDATA bound to: 5'b10011 
+	Parameter p_SCCB_R_NACK bound to: 5'b10100 
+	Parameter p_SCCB_R_STOP2 bound to: 5'b10101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v:135]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v:418]
+WARNING: [Synth 8-5788] Register r_sccb_wdata_reg in module SCCB_Timing_Control is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v:278]
+INFO: [Synth 8-256] done synthesizing module 'SCCB_Timing_Control' (2#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v:22]
+INFO: [Synth 8-638] synthesizing module 'RGB565_Config' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/RGB565_Config.v:22]
+INFO: [Synth 8-256] done synthesizing module 'RGB565_Config' (3#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/RGB565_Config.v:22]
+INFO: [Synth 8-638] synthesizing module 'RGB565_Capture' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/RGB565_Capture.v:22]
+	Parameter p_max_addr bound to: 19'b1001011000000000000 
+	Parameter p_real_y bound to: 11'b01001011000 
+	Parameter p_real_x bound to: 11'b01100100000 
+	Parameter p_true_y bound to: 11'b00111100000 
+	Parameter p_true_x bound to: 11'b01010000000 
+INFO: [Synth 8-256] done synthesizing module 'RGB565_Capture' (4#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/RGB565_Capture.v:22]
+INFO: [Synth 8-256] done synthesizing module 'OV2640_Driver' (5#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/OV2640_Driver.v:22]
+INFO: [Synth 8-638] synthesizing module 'SDRAM' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v:22]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (6#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'SDRAM' (7#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v:22]
+INFO: [Synth 8-638] synthesizing module 'DISPLAY_DATA' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/display_data.v:21]
+INFO: [Synth 8-638] synthesizing module 'display7' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/display7.v:21]
+INFO: [Synth 8-256] done synthesizing module 'display7' (8#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/display7.v:21]
+INFO: [Synth 8-638] synthesizing module 'divider' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/divider.v:21]
+	Parameter multiple bound to: 500000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'divider' (9#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/divider.v:21]
+INFO: [Synth 8-256] done synthesizing module 'DISPLAY_DATA' (10#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/display_data.v:21]
+INFO: [Synth 8-638] synthesizing module 'VGA' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/VGA.v:22]
+INFO: [Synth 8-638] synthesizing module 'SYNC' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SYNC.v:22]
+	Parameter p_Hmaxsize bound to: 11'b01100100000 
+	Parameter p_Vmaxsize bound to: 11'b01000001101 
+	Parameter p_Hreal_minsize bound to: 11'b00010010000 
+	Parameter p_Hreal_maxsize bound to: 11'b01100010001 
+	Parameter p_Vreal_minsize bound to: 11'b00000100011 
+	Parameter p_Vreal_maxsize bound to: 11'b01000000011 
+	Parameter p_Hsyncsize bound to: 11'b00001100000 
+	Parameter p_Vsyncsize bound to: 11'b00000000010 
+INFO: [Synth 8-256] done synthesizing module 'SYNC' (11#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SYNC.v:22]
+INFO: [Synth 8-638] synthesizing module 'CONTROL' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/CONTROL.v:22]
+	Parameter p_rowmin bound to: 11'b00000000000 
+	Parameter p_rowmax bound to: 11'b00111100000 
+	Parameter p_colmin bound to: 11'b00000000000 
+	Parameter p_colmax bound to: 11'b01010000000 
+INFO: [Synth 8-256] done synthesizing module 'CONTROL' (12#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/CONTROL.v:22]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (13#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/VGA.v:22]
+INFO: [Synth 8-256] done synthesizing module 'CAMERE_TOP' (14#1) [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 343.133 ; gain = 135.797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 343.133 ; gain = 135.797
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'CLK_DIV' instantiated as 'div_inst' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v:65]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_gen_0' instantiated as 'sdram_inst/sdram_inst' [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v:31]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/dcp/CLK_DIV_in_context.xdc] for cell 'div_inst'
+Finished Parsing XDC File [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/dcp/CLK_DIV_in_context.xdc] for cell 'div_inst'
+Parsing XDC File [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/dcp_2/blk_mem_gen_0_in_context.xdc] for cell 'sdram_inst/sdram_inst'
+Finished Parsing XDC File [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/dcp_2/blk_mem_gen_0_in_context.xdc] for cell 'sdram_inst/sdram_inst'
+Parsing XDC File [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/constrs_1/new/top_xdc.xdc]
+WARNING: [Vivado 12-507] No nets matched 'OV_PCLK_IBUF'. [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/constrs_1/new/top_xdc.xdc:120]
+Finished Parsing XDC File [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/constrs_1/new/top_xdc.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/constrs_1/new/top_xdc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/CAMERE_TOP_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.srcs/constrs_1/new/top_xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CAMERE_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CAMERE_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 651.723 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_100MHz. (constraint file  D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/dcp/CLK_DIV_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_100MHz. (constraint file  D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.runs/synth_1/.Xil/Vivado-23672-LAPTOP-N22FN740/dcp/CLK_DIV_in_context.xdc, line 6).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_now_state_reg' in module 'SCCB_Timing_Control'
+INFO: [Synth 8-5546] ROM "w_transfer_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CFG_rdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_capture_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "r_ack" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "ACK" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "r_countV" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             p_SCCB_IDLE |                            00000 |                            00000
+          p_SCCB_W_START |                            00001 |                            00001
+         p_SCCB_W_IDADDR |                            01111 |                            00010
+           p_SCCB_W_ACK1 |                            10000 |                            00011
+        p_SCCB_W_REGADDR |                            10001 |                            00100
+           p_SCCB_W_ACK2 |                            10010 |                            00101
+        p_SCCB_W_REGDATA |                            10011 |                            00110
+           p_SCCB_W_ACK3 |                            10100 |                            00111
+           p_SCCB_W_STOP |                            10101 |                            01000
+         p_SCCB_R_START1 |                            00010 |                            01001
+        p_SCCB_R_IDADDR1 |                            00011 |                            01010
+           p_SCCB_R_ACK1 |                            00100 |                            01011
+        p_SCCB_R_REGADDR |                            00101 |                            01100
+           p_SCCB_R_ACK2 |                            00110 |                            01101
+          p_SCCB_R_STOP1 |                            00111 |                            01110
+           p_SCCB_R_IDLE |                            01000 |                            01111
+         p_SCCB_R_START2 |                            01001 |                            10000
+        p_SCCB_R_IDADDR2 |                            01010 |                            10001
+           p_SCCB_R_ACK3 |                            01011 |                            10010
+        p_SCCB_R_REGDATA |                            01100 |                            10011
+           p_SCCB_R_NACK |                            01101 |                            10100
+          p_SCCB_R_STOP2 |                            01110 |                            10101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_now_state_reg' using encoding 'sequential' in module 'SCCB_Timing_Control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 3     
+	  16 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 16    
+	  22 Input      5 Bit        Muxes := 5     
+	  45 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 17    
+	  17 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 8     
+	  11 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	  22 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 15    
+	  17 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SCCB_Timing_Control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 12    
+	  22 Input      5 Bit        Muxes := 5     
+	  45 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 16    
+	  17 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 8     
+	  11 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	  22 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
+	  17 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+Module RGB565_Capture 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 7     
+Module display7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+Module divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+Module DISPLAY_DATA 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module SYNC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 4     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module CONTROL 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ov2640_inst/timing_inst/w_delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ov2640_inst/timing_inst/w_transfer_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ov2640_inst/timing_inst/w_capture_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga_inst/sync_inst/r_countV" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP vga_inst/control_inst/Rom_addr, operation Mode is: C+A*(B:0x280).
+DSP Report: operator vga_inst/control_inst/Rom_addr is absorbed into DSP vga_inst/control_inst/Rom_addr.
+DSP Report: operator vga_inst/control_inst/Rom_addr0 is absorbed into DSP vga_inst/control_inst/Rom_addr.
+WARNING: [Synth 8-3917] design CAMERE_TOP has port OV_RST driven by constant 1
+WARNING: [Synth 8-3917] design CAMERE_TOP has port OV_PWDN driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 651.723 ; gain = 444.387
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++--------------------+--------------------------------------+---------------+----------------+
+|Module Name         | RTL Object                           | Depth x Width | Implemented As | 
++--------------------+--------------------------------------+---------------+----------------+
+|SCCB_Timing_Control | r_sccb_out                           | 32x1          | LUT            | 
+|SCCB_Timing_Control | r_sccb_wdata                         | 32x1          | LUT            | 
+|RGB565_Config       | LUT_DATA                             | 256x16        | LUT            | 
+|CAMERE_TOP          | ov2640_inst/timing_inst/r_sccb_out   | 32x1          | LUT            | 
+|CAMERE_TOP          | ov2640_inst/config_inst/LUT_DATA     | 256x16        | LUT            | 
+|CAMERE_TOP          | ov2640_inst/timing_inst/r_sccb_wdata | 32x1          | LUT            | 
++--------------------+--------------------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|CONTROL     | C+A*(B:0x280) | 11     | 10     | 11     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'dis_inst/Bit_ctrl_reg[2]' (FDS) to 'dis_inst/Bit_ctrl_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dis_inst/Bit_ctrl_reg[3]' (FDS) to 'dis_inst/Bit_ctrl_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dis_inst/Bit_ctrl_reg[4]' (FDS) to 'dis_inst/Bit_ctrl_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dis_inst/Bit_ctrl_reg[5]' (FDS) to 'dis_inst/Bit_ctrl_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dis_inst/Bit_ctrl_reg[6]' (FDS) to 'dis_inst/Bit_ctrl_reg[7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\dis_inst/Bit_ctrl_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (ov2640_inst/capture_inst/r_counter_reg[1]) is unused and will be removed from module CAMERE_TOP.
+WARNING: [Synth 8-3332] Sequential element (dis_inst/Bit_ctrl_reg[7]) is unused and will be removed from module CAMERE_TOP.
+WARNING: [Synth 8-3332] Sequential element (dis_inst/Bit_ctrl_reg[6]) is unused and will be removed from module CAMERE_TOP.
+WARNING: [Synth 8-3332] Sequential element (dis_inst/Bit_ctrl_reg[5]) is unused and will be removed from module CAMERE_TOP.
+WARNING: [Synth 8-3332] Sequential element (dis_inst/Bit_ctrl_reg[4]) is unused and will be removed from module CAMERE_TOP.
+WARNING: [Synth 8-3332] Sequential element (dis_inst/Bit_ctrl_reg[3]) is unused and will be removed from module CAMERE_TOP.
+WARNING: [Synth 8-3332] Sequential element (dis_inst/Bit_ctrl_reg[2]) is unused and will be removed from module CAMERE_TOP.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 651.723 ; gain = 444.387
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 651.723 ; gain = 444.387
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'div_inst/CLK_10MHz' to pin 'div_inst/bbstub_CLK_10MHz/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'div_inst/CLK_24MHz' to pin 'div_inst/bbstub_CLK_24MHz/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'div_inst/CLK_25MHz' to pin 'div_inst/bbstub_CLK_25MHz/O'
+INFO: [Synth 8-5820] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 654.797 ; gain = 447.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |CLK_DIV       |         1|
+|2     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |CLK_DIV       |     1|
+|2     |blk_mem_gen_0 |     1|
+|3     |BUFG          |     1|
+|4     |CARRY4        |    29|
+|5     |DSP48E1       |     1|
+|6     |LUT1          |    81|
+|7     |LUT2          |    86|
+|8     |LUT3          |    36|
+|9     |LUT4          |    46|
+|10    |LUT5          |    63|
+|11    |LUT6          |   143|
+|12    |MUXF7         |     2|
+|13    |FDCE          |   141|
+|14    |FDPE          |     4|
+|15    |FDRE          |    48|
+|16    |IBUF          |    13|
+|17    |IOBUF         |     1|
+|18    |OBUF          |    44|
++------+--------------+------+
+
+Report Instance Areas: 
++------+-----------------+--------------------+------+
+|      |Instance         |Module              |Cells |
++------+-----------------+--------------------+------+
+|1     |top              |                    |   754|
+|2     |  dis_inst       |DISPLAY_DATA        |   126|
+|3     |    DIS_inst     |display7            |     7|
+|4     |    DIV_inst     |divider             |   107|
+|5     |  ov2640_inst    |OV2640_Driver       |   442|
+|6     |    capture_inst |RGB565_Capture      |   110|
+|7     |    config_inst  |RGB565_Config       |    64|
+|8     |    timing_inst  |SCCB_Timing_Control |   268|
+|9     |  sdram_inst     |SDRAM               |    12|
+|10    |  vga_inst       |VGA                 |   112|
+|11    |    control_inst |CONTROL             |     2|
+|12    |    sync_inst    |SYNC                |   110|
++------+-----------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 691.555 ; gain = 484.219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 691.555 ; gain = 147.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 691.555 ; gain = 484.219
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 33 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+92 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 691.555 ; gain = 459.234
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 691.555 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 04 11:42:55 2019...

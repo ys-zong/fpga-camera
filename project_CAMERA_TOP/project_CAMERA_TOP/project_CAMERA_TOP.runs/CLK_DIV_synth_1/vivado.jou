@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Jan 04 01:10:34 2019
+# Process ID: 15372
+# Current directory: F:/Project_Auway/project_CAMERA_TOP/project_CAMERA_TOP.runs/CLK_DIV_synth_1
+# Command line: vivado.exe -log CLK_DIV.vds -mode batch -messageDb vivado.pb -notrace -source CLK_DIV.tcl
+# Log file: F:/Project_Auway/project_CAMERA_TOP/project_CAMERA_TOP.runs/CLK_DIV_synth_1/CLK_DIV.vds
+# Journal file: F:/Project_Auway/project_CAMERA_TOP/project_CAMERA_TOP.runs/CLK_DIV_synth_1\vivado.jou
+#-----------------------------------------------------------
+source CLK_DIV.tcl -notrace

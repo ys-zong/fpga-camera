@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Jul 08 17:48:17 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="cf96df6a82224d038dbd57d65a4648d7" type="ProjectID"/>
+<property name="ProjectIteration" value="79" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="65" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
+<property name="CustomizeCore" value="5" type="JavaHandler"/>
+<property name="DebugWizardCmdHandler" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditPaste" value="7" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="74" type="JavaHandler"/>
+<property name="MarkDebug" value="1" type="JavaHandler"/>
+<property name="NewHardwareDashboard" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="70" type="JavaHandler"/>
+<property name="OpenProject" value="17" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="4" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="3" type="JavaHandler"/>
+<property name="RecustomizeCore" value="31" type="JavaHandler"/>
+<property name="RefreshDevice" value="2" type="JavaHandler"/>
+<property name="RunBitgen" value="87" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="8" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="5" type="JavaHandler"/>
+<property name="ShowView" value="19" type="JavaHandler"/>
+<property name="SimulationClose" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="3" type="JavaHandler"/>
+<property name="ViewLayoutCmd" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CAMERE_TOP.v, 102, 189" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 146, 128" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 228, 184" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 230, 153" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 286, 254" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 324, 188" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 325, 191" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 340, 146" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 344, 120" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 350, 164" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 364, 218" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 367, 174" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 367, 255" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 374, 174" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 394, 168" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 400, 120" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 402, 106" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 481, 172" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 502, 128" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 536, 113" value="1" type="GuiResourceData"/>
+<property name="CAMERE_TOP.v, 82, 146" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, CAMERE_TOP (CAMERE_TOP.v" value="13" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.xpr, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="274" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="253" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

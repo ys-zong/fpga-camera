@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1546573411">
+  <File Type="ROUTE-STATUS-PB" Name="CAMERE_TOP_route_status.pb"/>
+  <File Type="PA-TCL" Name="CAMERE_TOP.tcl"/>
+  <File Type="OPT-DCP" Name="CAMERE_TOP_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="CAMERE_TOP_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CAMERE_TOP_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="CAMERE_TOP.vdi"/>
+  <File Type="PWROPT-DRC" Name="CAMERE_TOP_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="CAMERE_TOP_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="CAMERE_TOP_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="CAMERE_TOP.hwdef"/>
+  <File Type="OPT-TIMING" Name="CAMERE_TOP_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CAMERE_TOP_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CAMERE_TOP_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CAMERE_TOP_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CAMERE_TOP_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CAMERE_TOP_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CAMERE_TOP_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CAMERE_TOP_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CAMERE_TOP_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CAMERE_TOP_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="CAMERE_TOP_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CAMERE_TOP_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CAMERE_TOP_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CAMERE_TOP_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CAMERE_TOP_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="CAMERE_TOP_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="CAMERE_TOP_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CAMERE_TOP_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CAMERE_TOP_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CAMERE_TOP_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CAMERE_TOP_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CAMERE_TOP_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="CAMERE_TOP.bit"/>
+  <File Type="ROUTE-PWR" Name="CAMERE_TOP_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="CAMERE_TOP_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CAMERE_TOP_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CAMERE_TOP_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CAMERE_TOP_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CAMERE_TOP_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CAMERE_TOP_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CAMERE_TOP_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CAMERE_TOP_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CAMERE_TOP_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CAMERE_TOP_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CAMERE_TOP_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CAMERE_TOP_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CAMERE_TOP_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="CAMERE_TOP.bin"/>
+  <File Type="BITSTR-MSK" Name="CAMERE_TOP.msk"/>
+  <File Type="BITSTR-RBT" Name="CAMERE_TOP.rbt"/>
+  <File Type="BITSTR-NKY" Name="CAMERE_TOP.nky"/>
+  <File Type="BITSTR-BMM" Name="CAMERE_TOP_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="CAMERE_TOP.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="CAMERE_TOP.sysdef"/>
+  <File Type="BG-BGN" Name="CAMERE_TOP.bgn"/>
+  <File Type="BG-DRC" Name="CAMERE_TOP.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/RGB565_Capture.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SYNC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CONTROL.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RGB565_Config.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SCCB_Timing_Control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_data.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SDRAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OV2640_Driver.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CAMERE_TOP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CAMERE_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="CLK_DIV"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

@@ -1,0 +1,49 @@
+# do {CAMERE_TOP_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L xpm -L blk_mem_gen_v8_3_3 -lib xil_defaultlib xil_defaultlib.CAMERE_TOP xil_defaultlib.glbl 
+# Start time: 15:14:58 on Jan 04,2019
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.CAMERE_TOP
+# Loading xil_defaultlib.CLK_DIV
+# Loading xil_defaultlib.CLK_DIV_clk_wiz
+# Loading unisims_ver.IBUF
+# Loading unisims_ver.MMCME2_ADV
+# Loading unisims_ver.BUFG
+# Loading xil_defaultlib.OV2640_Driver
+# Loading xil_defaultlib.SCCB_Timing_Control
+# Loading xil_defaultlib.RGB565_Config
+# Loading xil_defaultlib.RGB565_Capture
+# Loading xil_defaultlib.SDRAM
+# Loading xil_defaultlib.blk_mem_gen_0
+# Loading blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3
+# Loading xil_defaultlib.DISPLAY_DATA
+# Loading xil_defaultlib.display7
+# Loading xil_defaultlib.divider
+# Loading xil_defaultlib.VGA
+# Loading xil_defaultlib.SYNC
+# Loading xil_defaultlib.CONTROL
+# Loading xil_defaultlib.glbl
+# Loading blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_mem_module
+# Loading blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_output_stage
+# Loading blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_softecc_output_reg_stage
+# Loading blk_mem_gen_v8_3_3.blk_mem_axi_regs_fwd_v8_3
+# ** Warning: (vsim-3015) ../../../project_CAMERA_TOP.srcs/sources_1/new/display_data.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'rst'. The port definition is at: ../../../project_CAMERA_TOP.srcs/sources_1/new/divider.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /CAMERE_TOP/dis_inst/DIV_inst File: ../../../project_CAMERA_TOP.srcs/sources_1/new/divider.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Block Memory Generator module CAMERE_TOP.sdram_inst.sdram_inst.inst.native_mem_module.blk_mem_gen_v8_3_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# End time: 15:22:54 on Jan 04,2019, Elapsed time: 0:07:56
+# Errors: 0, Warnings: 1

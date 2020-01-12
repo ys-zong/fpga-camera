@@ -1,0 +1,73 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Jan 04 11:44:42 2019
+| Host         : LAPTOP-N22FN740 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CAMERE_TOP_control_sets_placed.rpt
+| Design       : CAMERE_TOP
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    77 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |           13 |
+| No           | No                    | Yes                    |              45 |           24 |
+| No           | Yes                   | No                     |              32 |            9 |
+| Yes          | No                    | No                     |               8 |            5 |
+| Yes          | No                    | Yes                    |             100 |           31 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+----------------------------------------------------+----------------------------------------------+------------------+----------------+
+|                 Clock Signal                |                    Enable Signal                   |               Set/Reset Signal               | Slice Load Count | Bel Load Count |
++---------------------------------------------+----------------------------------------------------+----------------------------------------------+------------------+----------------+
+|  dis_inst/DIV_inst/CLK                      |                                                    | dis_inst/flag_set                            |                1 |              1 |
+|  OV_PCLK_IBUF_BUFG                          | ov2640_inst/timing_inst/E[0]                       | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                1 |              1 |
+| ~div_inst/inst/CLK_10MHz                    |                                                    | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                1 |              1 |
+|  CLK_100MHz_IBUF_BUFG                       |                                                    |                                              |                1 |              2 |
+|  ov2640_inst/timing_inst/r_sccb_clk_reg_n_0 | ov2640_inst/timing_inst/r_bit_cnt[3]_i_1_n_0       | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                2 |              4 |
+|  OV_PCLK_IBUF_BUFG                          |                                                    | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                1 |              4 |
+|  OV_PCLK_IBUF_BUFG                          | ov2640_inst/capture_inst/Out_frame_data[4]_i_1_n_0 | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                2 |              5 |
+|  dis_inst/DIV_inst/CLK                      |                                                    |                                              |                3 |              6 |
+|  OV_PCLK_IBUF_BUFG                          | ov2640_inst/capture_inst/p_3_out[11]               | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                4 |              7 |
+| ~div_inst/inst/CLK_10MHz                    | ov2640_inst/timing_inst/CFG_rdata[7]_i_1_n_0       | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                2 |              8 |
+| ~div_inst/inst/CLK_10MHz                    | ov2640_inst/timing_inst/r_sccb_wdata[7]_i_1_n_0    |                                              |                5 |              8 |
+|  div_inst/inst/CLK_25MHz                    | vga_inst/sync_inst/r_countV[10]_i_1_n_0            | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                4 |             11 |
+|  OV_PCLK_IBUF_BUFG                          | ov2640_inst/timing_inst/r_herf_cnt_reg[0][0]       | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                3 |             12 |
+|  div_inst/inst/CLK_25MHz                    |                                                    | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                7 |             13 |
+| ~div_inst/inst/CLK_10MHz                    | ov2640_inst/timing_inst/CFG_index_rep[7]_i_1_n_0   | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                3 |             16 |
+|  div_inst/inst/CLK_10MHz                    | ov2640_inst/timing_inst/sel                        | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                5 |             17 |
+|  div_inst/inst/CLK_25MHz                    |                                                    |                                              |                9 |             18 |
+|  OV_PCLK_IBUF_BUFG                          | ov2640_inst/capture_inst/r_addr                    | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |                5 |             19 |
+|  div_inst/inst/CLK_10MHz                    |                                                    | ov2640_inst/timing_inst/r_delay_cnt_reg[0]_0 |               15 |             27 |
+|  CLK_100MHz_IBUF_BUFG                       |                                                    | dis_inst/DIV_inst/i1_carry__2_n_0            |                8 |             31 |
++---------------------------------------------+----------------------------------------------------+----------------------------------------------+------------------+----------------+
+
+

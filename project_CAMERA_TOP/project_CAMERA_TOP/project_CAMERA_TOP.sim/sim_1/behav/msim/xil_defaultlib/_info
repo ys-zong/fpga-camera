@@ -1,0 +1,693 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Mathlogic/Project/project_CAMERA_TOP/project_CAMERA_TOP/project_CAMERA_TOP.sim/sim_1/behav
+vblk_mem_gen_0
+Z1 !s110 1546586090
+!i10b 1
+!s100 18aR6KMD[4bD<6DDhl>EL0
+ISX@<aeDO`_LF9>7iTDlGB3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1546515283
+8../../../project_CAMERA_TOP.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+F../../../project_CAMERA_TOP.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+Z3 L0 56
+Z4 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z5 !s108 1546586090.000000
+Z6 !s107 ../../../project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v|../../../project_CAMERA_TOP.srcs/sources_1/new/OV2640_Driver.v|../../../project_CAMERA_TOP.srcs/sources_1/new/VGA.v|../../../project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v|../../../project_CAMERA_TOP.srcs/sources_1/new/display_data.v|../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV.v|../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV_clk_wiz.v|../../../project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v|../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Config.v|../../../project_CAMERA_TOP.srcs/sources_1/new/CONTROL.v|../../../project_CAMERA_TOP.srcs/sources_1/new/SYNC.v|../../../project_CAMERA_TOP.srcs/sources_1/new/display7.v|../../../project_CAMERA_TOP.srcs/sources_1/new/divider.v|../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Capture.v|../../../project_CAMERA_TOP.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../project_CAMERA_TOP.ip_user_files/ipstatic/clk_wiz_v5_3_1|../../../project_CAMERA_TOP.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Capture.v|../../../project_CAMERA_TOP.srcs/sources_1/new/divider.v|../../../project_CAMERA_TOP.srcs/sources_1/new/display7.v|../../../project_CAMERA_TOP.srcs/sources_1/new/SYNC.v|../../../project_CAMERA_TOP.srcs/sources_1/new/CONTROL.v|../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Config.v|../../../project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v|../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV_clk_wiz.v|../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV.v|../../../project_CAMERA_TOP.srcs/sources_1/new/display_data.v|../../../project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v|../../../project_CAMERA_TOP.srcs/sources_1/new/VGA.v|../../../project_CAMERA_TOP.srcs/sources_1/new/OV2640_Driver.v|../../../project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v|
+!i113 1
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -work xil_defaultlib +incdir+../../../project_CAMERA_TOP.ip_user_files/ipstatic/clk_wiz_v5_3_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vCAMERE_TOP
+R1
+!i10b 1
+!s100 F2LNDHhicTa=NIWUDYFj<3
+IYBhl<i9nzo>>5nH24=TId1
+R2
+R0
+w1546572473
+8../../../project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/CAMERE_TOP.v
+Z10 L0 22
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@c@a@m@e@r@e_@t@o@p
+vCLK_DIV
+R1
+!i10b 1
+!s100 ^i?Ca@JW1TX5LnRcCAz>`1
+I@^E66ziSgJ6=BN6=o7J4R1
+R2
+R0
+Z11 w1546535431
+8../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV.v
+F../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV.v
+L0 72
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@c@l@k_@d@i@v
+vCLK_DIV_clk_wiz
+R1
+!i10b 1
+!s100 R:R5Vo?0cMzK0;dNRVXJc3
+IoBbR94oQ[b?b2QOJQNPM:1
+R2
+R0
+R11
+8../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV_clk_wiz.v
+F../../../project_CAMERA_TOP.srcs/sources_1/ip/CLK_DIV/CLK_DIV_clk_wiz.v
+L0 70
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@c@l@k_@d@i@v_clk_wiz
+vCONTROL
+R1
+!i10b 1
+!s100 Pfi6]:YiUm<8kJEHWhYM61
+I4V=zUkLGeYcKGR_DD`_dA3
+R2
+R0
+w1546536599
+8../../../project_CAMERA_TOP.srcs/sources_1/new/CONTROL.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/CONTROL.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@c@o@n@t@r@o@l
+vdisplay7
+R1
+!i10b 1
+!s100 KaG=l2_z]VJL5WgVOMjRg3
+IH4DlIWi5T_I4I?hm79EF00
+R2
+R0
+w1545661163
+8../../../project_CAMERA_TOP.srcs/sources_1/new/display7.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/display7.v
+Z12 L0 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+vDISPLAY_DATA
+R1
+!i10b 1
+!s100 @fLWAlFHZ>]b5_?>=32QP1
+I08ZXLHR>cjmNYk68DCAKT3
+R2
+R0
+w1546334879
+8../../../project_CAMERA_TOP.srcs/sources_1/new/display_data.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/display_data.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@d@i@s@p@l@a@y_@d@a@t@a
+vdivider
+R1
+!i10b 1
+!s100 PSIXKF8`T=nFK3Lk1C7jT1
+I7``1jIG>bf]zYT6bj5CjF2
+R2
+R0
+w1546270821
+8../../../project_CAMERA_TOP.srcs/sources_1/new/divider.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/divider.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+vglbl
+!s110 1546586091
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+R2
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R8
+vOV2640_Driver
+R1
+!i10b 1
+!s100 kEGiz?c12h]3zmgH=k0551
+I4[TjV?4L0OL_OS>>ToXW@2
+R2
+R0
+w1546570314
+8../../../project_CAMERA_TOP.srcs/sources_1/new/OV2640_Driver.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/OV2640_Driver.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@o@v2640_@driver
+vRGB565_Capture
+R1
+!i10b 1
+!s100 a;fdNDl6DX1?]YD2E;TUk2
+IWMIFkh8Vz??HUFETFl]`h3
+R2
+R0
+w1546570197
+8../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Capture.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Capture.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@r@g@b565_@capture
+vRGB565_Config
+R1
+!i10b 1
+!s100 `LZjB9ok8i0:CWSl1Yn>B1
+IX5m2ahZRQo2chzgUE;j6C3
+R2
+R0
+w1546522929
+8../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Config.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/RGB565_Config.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@r@g@b565_@config
+vSCCB_Timing_Control
+R1
+!i10b 1
+!s100 ]PJQEY8z>jF@bM8Oj7FXQ2
+I[kaOYX3hUe7l0hIm2IDYg3
+R2
+R0
+w1546528156
+8../../../project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/SCCB_Timing_Control.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@s@c@c@b_@timing_@control
+vSDRAM
+R1
+!i10b 1
+!s100 dATHoKkgB`fUhcSIBIQ4T2
+IkjH4@bYV6>[`CAL>[Wffo2
+R2
+R0
+w1546527120
+8../../../project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/SDRAM.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@s@d@r@a@m
+vSYNC
+R1
+!i10b 1
+!s100 >nUT>HEaFHZ1S]9gjjN751
+I>?c[N85<mfzLPENa4WN:X3
+R2
+R0
+w1546535463
+8../../../project_CAMERA_TOP.srcs/sources_1/new/SYNC.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/SYNC.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@s@y@n@c
+vVGA
+R1
+!i10b 1
+!s100 Imd@C_<BYHm<YC6FJ_CR00
+I8;>`YQRg9j[HTdIQ]e_9]2
+R2
+R0
+w1546571271
+8../../../project_CAMERA_TOP.srcs/sources_1/new/VGA.v
+F../../../project_CAMERA_TOP.srcs/sources_1/new/VGA.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@v@g@a
+vxpm_cdc_array_single
+Z13 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z14 !s110 1546586089
+!i10b 1
+!s100 5FBIeVzJhLY^YP<YZ<EIH3
+IhZ?:QSUlgFbi=iTMlWdn93
+R2
+Z15 !s105 xpm_cdc_sv_unit
+S1
+R0
+Z16 w1465086321
+Z17 8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+Z18 FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+L0 692
+R4
+r1
+!s85 0
+31
+Z19 !s108 1546586088.000000
+Z20 !s107 D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
+Z21 !s90 -64|-incr|-sv|-work|xil_defaultlib|+incdir+../../../project_CAMERA_TOP.ip_user_files/ipstatic/clk_wiz_v5_3_1|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv|D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv|
+!i113 1
+Z22 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z23 !s92 -sv -work xil_defaultlib +incdir+../../../project_CAMERA_TOP.ip_user_files/ipstatic/clk_wiz_v5_3_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vxpm_cdc_async_rst
+R13
+R14
+!i10b 1
+!s100 Zj:k?S]E`51^1QFL<KZV]0
+IOX53AO:n`P_FAd=67K6Ni1
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 857
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_cdc_gray
+R13
+R14
+!i10b 1
+!s100 DKOG]z3mG4OoZCE5[Qhhh2
+I<bN:^m]c1mh6BF8L=dT<e0
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 205
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_cdc_handshake
+R13
+R14
+!i10b 1
+!s100 =PWB=SH]UZG023m?bdNPD2
+IDb>_dNm7?<NfCd2UhQT413
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 339
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_cdc_pulse
+R13
+R14
+!i10b 1
+!s100 o7jmJF5TbNazjLgECMDBP2
+IKcCL:n934?3GFU9SS?ln@1
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 552
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_cdc_single
+R13
+R14
+!i10b 1
+!s100 `d6l0c?<oELPI5_0j3KYC1
+IXJF;MHWzcOHLKgAi?74=T3
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 98
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_cdc_sync_rst
+R13
+R14
+!i10b 1
+!s100 Y41[JClGdckmNZgLVGk6Y1
+I48BUdLEgFaO_[>Pzo8>011
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 764
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_base
+R13
+R14
+!i10b 1
+!s100 ALkkJ<[dEY[i_AnYEEMcV1
+IClCo@f0Zj431N3MgFFYO21
+R2
+!s105 xpm_memory_base_sv_unit
+S1
+R0
+R16
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv
+L0 57
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_dpdistram
+R13
+R14
+!i10b 1
+!s100 2LHiB`CdIUkO[Sc9:E=iZ1
+I3jX>INfUT7@1g9W0YFaS[0
+R2
+!s105 xpm_memory_dpdistram_sv_unit
+S1
+R0
+Z24 w1465086322
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv
+R3
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_dprom
+R13
+R14
+!i10b 1
+!s100 F22IH2KkLL<fQWHU]>`9X1
+IIe5]IRb[i<RizNTDnKZCe3
+R2
+!s105 xpm_memory_dprom_sv_unit
+S1
+R0
+R24
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv
+R3
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_sdpram
+R13
+R14
+!i10b 1
+!s100 f8gdck?OmlK:8OBRZSdbR0
+In<SmH@2>6RZ5NM>Y48b?a3
+R2
+!s105 xpm_memory_sdpram_sv_unit
+S1
+R0
+R24
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv
+R3
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_spram
+R13
+R14
+!i10b 1
+!s100 dkBXkn^U]nf]Wfl;j@iLR0
+IH`Q@MLaX>R^JO8LA3Tigf0
+R2
+!s105 xpm_memory_spram_sv_unit
+S1
+R0
+R24
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv
+R3
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_sprom
+R13
+R14
+!i10b 1
+!s100 05=F:GOZ3lGnSTPj?<=kl1
+IH_ZSnF<ieb3LVAPW8=@9R0
+R2
+!s105 xpm_memory_sprom_sv_unit
+S1
+R0
+R24
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv
+R3
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23
+vxpm_memory_tdpram
+R13
+R14
+!i10b 1
+!s100 B]=nJbU3aV0?4PLe7TcSP1
+I_e?02;2A=3K8[eFEJge9@0
+R2
+!s105 xpm_memory_tdpram_sv_unit
+S1
+R0
+R24
+8D:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv
+FD:/Mathlogic/vivado/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv
+R3
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R22
+R23

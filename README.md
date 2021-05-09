@@ -1,3 +1,5 @@
 # fpga-camera
 camera OV2640 on FPGA Nexys4
-本项目由 @Auway-tj 和我共同完成，使用Verilog语言，实现了在FPGA Nexys4开发板上的OV2640摄像头驱动。详细内容请见使用说明。
+
+The project is finished by @Auway-tj and me，using Verilog programming language，It can drive OV2640 camera on FPGA Nexys4.
+Please refer to Project Description for detailed usage.
